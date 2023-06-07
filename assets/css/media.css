@@ -1,0 +1,33 @@
+@media(max-width:992px){
+    .container{
+        flex-flow: column;
+        padding: 20px;
+    }
+    header{
+        padding: 20px;
+    }
+    header>nav>ul>li{
+        display: block;
+        text-align: center;
+    }
+    .banner{
+        background: url(https://images.pexels.com/photos/16961243/pexels-photo-16961243/free-photo-of-which-entry.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(min-width:993px) and (max-width:1200px){
+    .container{
+        padding: 0px 30px 0px 30px;
+    }
+    header{
+        flex-direction: column !important;
+        justify-content: center;
+        padding: 20px !important;
+    }
+    .banner{
+        background: url( https://images.pexels.com/photos/16979523/pexels-photo-16979523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        align-items: center;
+        justify-content: center;
+    }
+}
